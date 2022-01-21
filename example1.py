@@ -10,5 +10,6 @@ driver = webdriver.Chrome("/Users/vasiliykirnos/skillfactory/python_selenium_sf/
 driver.get("http://130.193.37.179/app/pets")
 (driver.find_elements(By.XPATH, "//*[@id=\"image\"]/img"))[0].click()
 sleep(3)
-driver.save_screenshot('pet_home.png')
+driver.save_screenshot('pet_home987654e3.png')
+sleep(100)
 driver.quit()
