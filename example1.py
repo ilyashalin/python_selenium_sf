@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 
 from time import sleep
 
-driver = webdriver.Chrome("/Users/vasiliykirnos/skillfactory/python_selenium_sf/chromedriver")
+driver = webdriver.Chrome("C:\Users\i9\projects\Selenium SF/chromedriver")
 driver.get("http://130.193.37.179/app/pets")
 (driver.find_elements(By.XPATH, "//*[@id=\"image\"]/img"))[0].click()
 sleep(3)
